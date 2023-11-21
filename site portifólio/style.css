@@ -466,7 +466,7 @@ footer {
 }
 
 @media (max-width: 645px) {
-    .sobre-nos img {
+    .sobremim img {
         width: 400px;
         margin-left: 10px;
     }
@@ -506,7 +506,7 @@ footer {
     }
 
 
-    .sobre-nos img {
+    .sobremim img {
         width: 300px;
         height: auto;
         margin-left: 10px;
