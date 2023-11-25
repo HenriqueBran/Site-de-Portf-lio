@@ -112,13 +112,14 @@ html {
     border: solid black ;
     width: 110px;
     height: 110px;
+    margin-bottom: 1rem;
 }
 
 .first-section h1{
     color: white;
     font-size: 4rem;
-    text-transform: uppercase;
     margin-bottom: 1rem;
+    
     
 }
 
@@ -240,9 +241,9 @@ html {
     color: rgb(255, 255, 255);
 }
 
-/* Sobre mim */
+/* Sobre*/
 
-.sobremim{
+.sobre{
     background-color: #455559;
     width: 100%;
     padding-bottom: 5rem;
@@ -266,7 +267,7 @@ html {
     justify-content: space-between;
 }
 
-.sobremim img {
+.sobre img {
     width: 400px;
     height: 400px;
     margin-top: 10rem;
@@ -343,7 +344,7 @@ footer {
         
     }
 
-    .sobremim img {
+    .sobre img {
         width: 500px;
         margin-left: -2px;
     }
@@ -439,8 +440,11 @@ footer {
     .content.on .menu-toggle .three {
         transform: rotate(-45deg) translate(20px, -6px);
     }
+    .conteudo-principal img {
+        margin-bottom: 3rem;
+    }
     .conteudo-principal p {
-        margin-left: 20px;
+        margin-left: 50px;
     }
 
     .contatos-secao {
@@ -466,7 +470,7 @@ footer {
 }
 
 @media (max-width: 645px) {
-    .sobremim img {
+    .sobre img {
         width: 400px;
         margin-left: 10px;
     }
@@ -506,7 +510,7 @@ footer {
     }
 
 
-    .sobremim img {
+    .sobre img {
         width: 300px;
         height: auto;
         margin-left: 10px;
